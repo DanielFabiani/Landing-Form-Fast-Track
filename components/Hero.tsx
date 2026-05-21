@@ -34,7 +34,7 @@ export default function Hero() {
 
         {/* Logo Golf Tank */}
         <div
-          className="w-[75%] sm:w-[70%] md:w-[85%] max-w-[550px] animate-fadeUp flex flex-col items-center justify-center gap-2 sm:gap-3"
+          className="w-[75%] sm:w-[60%] md:w-[75%] max-w-[550px] animate-fadeUp flex flex-col items-center justify-center gap-2 sm:gap-3"
           style={{ animationDelay: "0.25s" }}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
