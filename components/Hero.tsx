@@ -6,9 +6,10 @@ export default function Hero() {
       className="relative w-full h-svh min-h-[580px] sm:min-h-[600px] flex flex-col items-center justify-center py-6 sm:py-0 overflow-hidden"
       id="inicio"
     >
+      {/* //-- Background Image -- */}
       <Image
         className="absolute inset-0 w-full h-full object-cover object-[center_50%]"
-        src="/campo-hero-bg-horzontal.jpg"
+        src="/bg-hero.webp"
         alt="Vista aérea del campo de golf"
         fill
         priority
@@ -33,7 +34,7 @@ export default function Hero() {
 
         {/* Logo Golf Tank */}
         <div
-          className="w-[75%] sm:w-[70%] md:w-[55%] max-w-[550px] animate-fadeUp flex flex-col items-center justify-center gap-2 sm:gap-3"
+          className="w-[75%] sm:w-[70%] md:w-[85%] max-w-[550px] animate-fadeUp flex flex-col items-center justify-center gap-2 sm:gap-3"
           style={{ animationDelay: "0.25s" }}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -49,31 +50,27 @@ export default function Hero() {
           />
         </div>
 
-        {/* Presentado por */}
-        <p
-          className="text-[11px] sm:text-xl font-medium sm:font-semibold tracking-[0.2em] sm:tracking-[0.16em] mt-8 sm:mt-10 uppercase text-white/60 sm:text-white/80 animate-fadeUp drop-shadow"
-          style={{ animationDelay: "0.4s" }}
-        >
-          Presentado por
-        </p>
+        <div className="flex flex-col items-center justify-center gap-4 sm:gap-6">
+          {/* Presentado por */}
+          <p
+            className="text-[11px] sm:text-xl font-medium sm:font-semibold tracking-[0.2em] sm:tracking-[0.16em] mt-8 sm:mt-10 uppercase text-white/60 sm:text-white/80 animate-fadeUp drop-shadow"
+            style={{ animationDelay: "0.4s" }}
+          >
+            Presentado por
+          </p>
 
-        {/* Logos sponsors */}
-        <div
-          className="flex items-center justify-center gap-6 sm:gap-10 animate-fadeUp w-[65%] sm:w-[70%] md:w-[55%] max-w-[550px]"
-          style={{ animationDelay: "0.55s" }}
-        >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/lakaut.svg"
-            alt="Lakaut"
-            className="w-[55%] h-auto brightness-0 invert drop-shadow-md"
-          />
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/FID.svg"
-            alt="FID by Lakaut"
-            className="w-[45%] h-auto brightness-0 invert drop-shadow-md"
-          />
+          {/* Logos sponsors */}
+          <div
+            className="flex items-center justify-center gap-6 sm:gap-10 animate-fadeUp w-[65%] sm:w-[70%] md:w-[85%] max-w-[550px]"
+            style={{ animationDelay: "0.55s" }}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo-fasttrack.svg"
+              alt="fasttrack"
+              className="w-full h-auto brightness-0 invert drop-shadow-md"
+            />
+          </div>
         </div>
       </div>
     </header>
