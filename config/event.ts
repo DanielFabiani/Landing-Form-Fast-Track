@@ -13,7 +13,7 @@ export const EVENT = {
   badgeText:   'Club House Golf Pilará · Buenos Aires · Edición I',
   tagline:     'Golf Tank', 
   date: {
-    display: 'jueves\n11 de Junio', // \n genera salto de línea
+    display: 'jueves\n4 de Junio', // \n genera salto de línea
     year:    '2026',
     iso:     '2026-06-11',
   },
@@ -50,7 +50,7 @@ export const EVENT = {
 
   // ── SEO / Meta ────────────────────────────────────────────────
   meta: {
-    title:       'Golf Tank — Club House Golf Pilará · 11 de Junio 2026',
+    title:       'Golf Tank — Club House Golf Pilará · 4 de Junio 2026',
     description: 'Torneo por invitación. 20 jugadores. Club House Golf Pilará, Buenos Aires',
     ogImage:     '/logo-golf-tank-social.png',
   },
