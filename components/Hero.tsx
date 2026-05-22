@@ -8,7 +8,15 @@ export default function Hero() {
     >
       {/* //-- Background Image -- */}
       <Image
-        className="absolute inset-0 w-full h-full object-cover object-[center_50%]"
+        className="absolute inset-0 w-full h-full object-cover object-[center block sm:hidden"
+        src="/bg-home-mobile.jpg"
+        alt="Vista aérea del campo de golf"
+        fill
+        priority
+        sizes="100vw"
+      />
+      <Image
+        className="absolute inset-0 w-full h-full object-cover object-[center_50%] hidden sm:block"
         src="/bg-hero.webp"
         alt="Vista aérea del campo de golf"
         fill

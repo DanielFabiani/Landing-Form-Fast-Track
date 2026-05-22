@@ -43,15 +43,20 @@ export const EVENT = {
 
   // ── Formato ───────────────────────────────────────────────────
   format: [
-    { label: 'Modalidad', value: 'Laguneada · Mejor pelota',                                                                                  highlight: false },
-    { label: 'Cupos',     value: '20 jugadores',                                            highlight: false },
+    { 
+      label: 'Modalidad', 
+      value: 'Laguneada · Mejor pelota',
+      highlight: false 
+    },
+    { label: 'Cupos',     value: '24 jugadores',  
+      highlight: false },
     { label: 'Incluye',   value: 'Green fee, driving range, desayuno, bar en el hoyo 9, cocktail de cierre, regalos para todos los jugadores y premios para los ganadores.', highlight: true  },
   ],
 
   // ── SEO / Meta ────────────────────────────────────────────────
   meta: {
     title:       'Golf Tank — Club House Golf Pilará · 4 de Junio 2026',
-    description: 'Torneo por invitación. 20 jugadores. Club House Golf Pilará, Buenos Aires',
+    description: 'Torneo por invitación. 24 jugadores. Club House Golf Pilará, Buenos Aires',
     ogImage:     '/logo-golf-tank-social.png',
   },
 } as const;
